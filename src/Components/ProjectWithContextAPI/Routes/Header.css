@@ -1,0 +1,24 @@
+.header{
+    font-size: 30px;
+    margin: 20px 0;
+  text-align: center;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+   height: 80px;
+}
+/* "a" selector will work for "Link" tag */
+a{  
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: turquoise;
+
+}
